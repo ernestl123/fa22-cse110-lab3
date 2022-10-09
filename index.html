@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minute</title>
+    <meta name="author" content="Ernest Lin">
+    <meta charset="UTF-8">
+    <link rel="icon" type ="image/x-icon" href = "favicon.png">
+  </head>
+  <body>
+    <header>
+        <section>
+            <h1><div><span>Meeting</span> Minute</div></h1>
+            <h3>Brainstorming and new members</h3>
+            <h4>Date: August 2nd</h4>
+        </section>
+        <section>
+            <h2 id="Agenda">Agenda</h2>
+            <nav>
+                <ol>
+                    <li><a href="#Introductions">Introductions</a></li>
+                    <li><a href="#Unfinished topic">Unfinished Discussion</a></li>
+                    <li><a href="#New Project Announcement">New Project Announcement</a></li>
+                </ol>
+            </nav>
+        </section>
+        <section>
+            <h2 id="Attendees">Attendees</h2>
+            <ul>
+                <li><b>John Doe</b></li>
+                <li><b>Doe John</b></li>
+                <li><b>Shrek</b></li>
+                <li><b>Barry Allen</b></li>
+                <li><b>Special guest: Professor Oak</b></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <h2 id="Introductions"><i>Introductions</i></h1>
+        <p>
+            Professor Oak is from University of California San Diego and will be assisting the company in the R&D department with the help of his two PHD students. The meeting today covers the unfinished discussions
+             and a new project that has been picked up by the company.
+        </p>
+
+        <h2 id="Unfinished topics"><i>Unfinished Discussion</i></h2>
+        <p>
+            The meeting has decided that the company retreat will take place three weeks from now on <strong>September 21st</strong> The location will be 
+            <strong>Downtown San Diego</strong>. Attendees are required to sign up on the form sent to everyone's email by <strong>August 23rd</strong>. <br> <br>
+
+            As a reminder, everyone in the <i>R&D</i> department is required to attend.
+        </p>
+        
+        <h2 id="New Project Announcement"><i>New Project Announcement</i></h2>
+        <p>
+            The company has picked up a new project from EVIL corporated to design and build a facial recognition software to determine a person's income status. 
+            John, Doe, Shrek, and Barry are all assigned to this new project and are expected to present a design within three months.
+            <details>
+                <summary>Facial Recognition Project Roles</summary>
+                <ul>
+                    <li>John - Team Lead</li>
+                    <li>Doe - SDK Developer</li>
+                    <li>Barry - Data Pipeline Engineer</li>
+                    <li>Shrek - Machine Learning Engineer</li>
+                </ul>
+            </details>
+        </p>
+
+        <h3>Miscellaneous</h3>
+        <p>
+            Shrek mentioned that the office elevators will be going under construction starting Thursday on the 3rd floor. Be sure to arrive early and not use the elevators starting Thursday.
+        </p>
+
+        <h3>Retreat Form</h3>
+        <form>
+            <fieldset>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="Attending">Attending</label><br>
+                <input type="checkbox" id="Attending" name="Attending">
+            </fieldset>
+            <fieldset>
+                <h4>Choose number of attendees</h4>
+                <input type="radio" id="1" name="count" value="1">
+                <label for="html">1</label><br>
+                <input type="radio" id="2" name="count" value="2">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="count" value="3">
+                <label for="3">3</label>
+            </fieldset>
+
+            <fieldset>
+            <label for="start">First day of attendance</label>
+            <input type="date" id="start" name="retreat_date" value = "2022-09-23"
+            min="2022-09-23" max="2022-09-30">
+            </fieldset>
+
+            <fieldset>
+                <label for="question">Any questions?</label> <br>
+                <textarea id="question" name="question" rows="10" cols="50">
+                    Do you have any questions?
+                </textarea>
+            </fieldset>
+
+            <fieldset>
+                <label for="poll">Choose your favorite dinner</label>
+                <input list="polls" name="poll" id="poll">
+
+                <datalist id="polls">
+                    <option value="Chicken">
+                    <option value="Beef">
+                    <option value="Turkey">
+                </datalist>
+            </fieldset>
+
+            <fieldset>
+                <label for="Pet">Favorite pet:</label>
+                <select name="pets" id="Pet">
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                </select>
+                <button type="button">Confirm</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <img src="rick.jpg" alt = "Rickroll" width="500" height="400">
+        <br>
+        <video width="320" height="240" controls>
+            <source src="30sVideo.webm" type="video/webm">
+        </video>
+        <audio controls>
+            <source src="30sVideo.mp3" type="audio/mpeg"
+        </audio>
+    </footer>
+  </body>
+</html>

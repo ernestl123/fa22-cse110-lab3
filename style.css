@@ -1,0 +1,74 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url("RobotoSlab-Black.ttf")
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+h1 {
+    color :darkgoldenrod;
+    text-align: center;
+}
+
+h2 {
+    color :#A45;
+    font-family: RobotoSlab;
+}
+
+h3 {
+    color :rgb(87, 71, 36);
+    text-decoration: underline rgb(72, 33, 82);
+}
+
+h4 {
+    color : hsl(27, 47, 50)
+}
+
+p {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    margin-left: 5pt;
+}
+
+/*Box container for the main texts under each agenda*/
+.longbox {
+    width: 500px;
+    margin-top: 0pc;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 1em;
+    padding: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:rgb(94, 89, 30);
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+/*Box container for miscellaneous*/
+.shortbox {
+    max-width: 500px;
+    min-width: 250px;
+    height: 6rem;
+    margin: 10px 10px 10px 10px;
+    padding: 5lh 5lh 5lh 5lh;
+    border: 5px solid rgb(122, 73, 73);
+    border-radius: 10pt;
+    background-color: aquamarine;
+}
+
+button:hover {
+    color: blue;
+}
+
+button:active {
+    box-shadow: 2px 2px 5px black;
+}

@@ -20,7 +20,6 @@ h1 {
 
 h2 {
     color :#A45;
-    font-family: RobotoSlab;
 }
 
 h3 {
@@ -71,4 +70,38 @@ button:hover {
 
 button:active {
     box-shadow: 2px 2px 5px black;
+}
+
+#Introductions,
+#Unfinished,
+#New {
+    text-decoration: underline rgb(129, 68, 111);
+}
+
+* {
+    font-family: RobotoSlab;
+}
+
+a {
+    color: blue;
+}
+
+a[href*="New"] {
+    color: red;
+  }
+
+div p {
+    color :rgb(112, 31, 31);
+}
+
+ol > li {
+    font-weight: bold;
+}
+
+div + h3 {
+    color: rgb(194, 24, 52);
+}
+
+video ~ audio {
+    background-color: #A45;
 }
